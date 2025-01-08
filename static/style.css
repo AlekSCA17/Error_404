@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(29, 41, 83);
+    }
+
+h1{
+    text-align: center;
+    margin-top:470px; /*centra verticamente*/
+    font-size: 40px; /*tamaño del texto*/
+    color: white;
+
+}
+
+p{
+    text-align: justify;
+    margin-top: auto;
+    margin-left: 350px; /*centra horizontalmente*/
+    font-size: 20px;
+    color: white;
+}
+
+img{
+    height: 450px; /*altura de la imagen*/
+    width: 450px;/*ancho de la imagen*/
+    margin-left: 550px; 
+    margin-top: -2000px;
+    margin-bottom: 170px; /*Espaciado entre el texto y la imagen*/
+}

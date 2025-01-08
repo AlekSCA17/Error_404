@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <title>page not found!</title>
+</head>
+<body>
+    <h1>Esta página está perdida en el espacio</h1>
+<p>
+    ¡Ups! Parece que la página que estás buscando ha desaparecido en un agujero negro o nunca existió. <br>
+    El enlace puede estar roto o la página ha sido movida a otro rincón del universo. No te preocupes, <br>
+    ¡regresa al principio y encuentra tu camino de vuelta! Si necesitas ayuda, nuestro equipo está listo <br>
+    para darte una brújula intergaláctica.
+</p>
+
+<img src="{{ url_for('static', filename='Astronaut.png') }}" alt="Astronauta">
+
+</body>
+</html>
